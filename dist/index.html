@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Bot Dashboard</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-C6yJj9ND.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 VIP Bot Dashboard</h1>
+            <p>Manage your VIP subscriptions and bot settings</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Bot Status</h2>
+                <div class="status-indicator">
+                    <span class="status-dot offline"></span>
+                    <span>Offline</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>VIP Subscriptions</h2>
+                <div id="subscriptions-list">
+                    <p>Loading subscriptions...</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Bot Controls</h2>
+                <div class="controls">
+                    <button id="start-bot" class="btn btn-primary">Start Bot</button>
+                    <button id="stop-bot" class="btn btn-secondary" disabled>Stop Bot</button>
+                    <button id="refresh-data" class="btn btn-outline">Refresh Data</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
